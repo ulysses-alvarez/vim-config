@@ -23,6 +23,7 @@ set cursorline
 so ~/.config/nvim/vim/plugins.vim
 so ~/.config/nvim/vim/plugin-config.vim
 so ~/.config/nvim/vim/maps.vim
+so ~/.config/nvim/vim/coc.vim
 
 
 "Theme Github and airline
