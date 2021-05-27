@@ -18,6 +18,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Plug 'justinmk/vim-sneak'
   Plug 'easymotion/vim-easymotion'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+  Plug 'SirVer/ultisnips'
+  Plug 'honza/vim-snippets'
 
 call plug#end()

@@ -17,13 +17,14 @@ set relativenumber
 "Utilities in code
 set showmatch   "show associated character
 set cursorline
+set autoindent
 
 
 "Plugin locations
-so ~/.config/nvim/vim/plugins.vim
-so ~/.config/nvim/vim/plugin-config.vim
-so ~/.config/nvim/vim/maps.vim
-so ~/.config/nvim/vim/coc.vim
+so ~/.config/nvim/general/vim-plug.vim
+so ~/.config/nvim/general/keys.vim
+so ~/.config/nvim/plugin-config/plug-config.vim
+so ~/.config/nvim/plugin-config/coc.vim
 
 
 "Theme Github and airline
