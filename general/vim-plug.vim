@@ -12,6 +12,9 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'ryanoasis/vim-devicons'
   Plug 'Yggdroot/indentLine'
   Plug 'luochen1990/rainbow'
+  "Plug 'gko/vim-coloresque'
+  Plug 'lilydjwg/colorizer'
+  Plug 'tribela/vim-transparent'
 
 
   "Git

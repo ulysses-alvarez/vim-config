@@ -26,6 +26,7 @@ so ~/.config/nvim/general/keys.vim
 so ~/.config/nvim/plugin-config/general-config.vim
 so ~/.config/nvim/plugin-config/coc.vim
 so ~/.config/nvim/plugin-config/signify.vim
+so ~/.config/nvim/plugin-config/airline.vim
 
 
 "Theme Github and airline
