@@ -17,6 +17,8 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Git
   Plug 'tpope/vim-fugitive'
   Plug 'mhinz/vim-signify'
+  Plug 'junegunn/gv.vim'
+
 
   "Functionality
   Plug 'scrooloose/nerdtree'

@@ -23,8 +23,9 @@ set autoindent
 "Plugin locations
 so ~/.config/nvim/general/vim-plug.vim
 so ~/.config/nvim/general/keys.vim
-so ~/.config/nvim/plugin-config/plug-config.vim
+so ~/.config/nvim/plugin-config/general-config.vim
 so ~/.config/nvim/plugin-config/coc.vim
+so ~/.config/nvim/plugin-config/signify.vim
 
 
 "Theme Github and airline

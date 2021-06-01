@@ -17,5 +17,3 @@ let g:indentLine_char = '¦'
 let g:rainbow_active = 1
 
 
-"Signify
-set updatetime=100
