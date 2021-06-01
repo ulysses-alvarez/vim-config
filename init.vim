@@ -28,7 +28,6 @@ so ~/.config/nvim/plugin-config/coc.vim
 
 
 "Theme Github and airline
-colorscheme github
 set termguicolors
-
+colorscheme github
 let g:airline_theme = 'dark_dimmed'

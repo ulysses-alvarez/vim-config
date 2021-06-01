@@ -6,7 +6,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'rakr/vim-one'
 
 
-  "Visual"
+  "Visual
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'ryanoasis/vim-devicons'
@@ -14,11 +14,17 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'luochen1990/rainbow'
 
 
+  "Git
+  Plug 'tpope/vim-fugitive'
+  Plug 'mhinz/vim-signify'
+
   "Functionality
   Plug 'scrooloose/nerdtree'
   Plug 'christoomey/vim-tmux-navigator'
   "Plug 'justinmk/vim-sneak'
   Plug 'easymotion/vim-easymotion'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'preservim/nerdcommenter'
+
 
 call plug#end()

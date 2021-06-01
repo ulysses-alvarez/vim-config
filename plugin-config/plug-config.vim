@@ -12,5 +12,10 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 "- IndentLine
 let g:indentLine_char = '¦'
 
+
 "- Rainbow
 let g:rainbow_active = 1
+
+
+"Signify
+set updatetime=100
