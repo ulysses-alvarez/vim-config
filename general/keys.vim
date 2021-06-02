@@ -15,14 +15,14 @@ nmap <Leader>n :tabe<CR>
 nmap <C-x> :bdelete<CR>
 
 "Grouping signs autocomplete
-inoremap ( ()<Esc>i
-inoremap { {}<Esc>i
-inoremap {<CR>  {<CR>}<Esc>O
-inoremap [ []<Esc>i
-inoremap < <><Esc>i
-inoremap ' ''<Esc>i
-inoremap " ""<Esc>i
 inoremap ° ``<Esc>i
+"inoremap ( ()<Esc>i
+"inoremap { {}<Esc>i
+"inoremap {<CR>  {<CR>}<Esc>O
+"inoremap [ []<Esc>i
+"inoremap < <><Esc>i
+"inoremap ' ''<Esc>i
+"inoremap " ""<Esc>i
 
 "NERDTree 
 nmap <Leader>da :NERDTreeFind<CR>
@@ -43,3 +43,10 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
+
+
+"Prettier
+nmap <Leader>ff <Plug>(Prettier)
+
+
+

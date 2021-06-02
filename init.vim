@@ -7,6 +7,7 @@ set clipboard=unnamedplus
 "tab configuration
 set sw=2
 set smartindent
+set tabstop=2
 
 "line configuration
 set number

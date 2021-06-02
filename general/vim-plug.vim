@@ -23,13 +23,19 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'junegunn/gv.vim'
 
 
+  "Autocomplete
+  Plug 'preservim/nerdcommenter'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'jiangmiao/auto-pairs'
+
+
   "Functionality
   Plug 'scrooloose/nerdtree'
   Plug 'christoomey/vim-tmux-navigator'
   "Plug 'justinmk/vim-sneak'
   Plug 'easymotion/vim-easymotion'
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'preservim/nerdcommenter'
+  Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+  Plug 'terryma/vim-multiple-cursors'
 
 
 call plug#end()
