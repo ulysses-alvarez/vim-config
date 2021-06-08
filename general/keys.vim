@@ -24,6 +24,12 @@ inoremap ° ``<Esc>i
 "inoremap ' ''<Esc>i
 "inoremap " ""<Esc>i
 
+
+"Terminal with a size of 15
+vnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+nnoremap <c-t> :split<CR>:ter<CR>:resize 15<CR>
+
+
 "NERDTree 
 nmap <Leader>da :NERDTreeFind<CR>
 
