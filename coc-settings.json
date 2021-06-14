@@ -1,13 +1,11 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "json",
-    "markdown",
-    "html",
-    "css",
-    "javascript",
-    "typescript"
-  ],
-
-  // Snippets
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+	"coc.preferences.formatOnSaveFiletypes": [
+		"json",
+		"markdown",
+		"html",
+		"css",
+		"javascript",
+		"typescript"
+	],
+	"snippets.userSnippetsDirectory": "~/.config/nvim/snips"
 }
