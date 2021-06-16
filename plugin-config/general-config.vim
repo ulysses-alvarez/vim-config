@@ -18,3 +18,9 @@
 "#Prettier
 	let g:prettier#autoformat = 0
 
+
+"#Lightline-bufferline
+	let g:bufferline_echo = 0  "Disable showing buffers on command line
+	let g:lightline#bufferline#enable_devicons = 1
+	let g:lightline#bufferline#show_number = 2
+	let g:lightline#bufferline#clickable = 1

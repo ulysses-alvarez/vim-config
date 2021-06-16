@@ -25,6 +25,9 @@
 	set laststatus=2
 	set noshowmode
 
+	"## Show buffers
+	set showtabline=2
+
 
 "#Plugin locations
 	so ~/.config/nvim/general/vim-plug.vim
@@ -38,8 +41,5 @@
 
 
 "#Theme vim  
-	set termguicolors
-	colorscheme github
-
-	
-
+		set termguicolors
+		colorscheme github

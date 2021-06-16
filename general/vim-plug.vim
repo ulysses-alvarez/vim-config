@@ -2,7 +2,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
   "#Themes
 	  Plug 'hzchirs/vim-material'
-	  Plug '1612492/github.vim' 
+		Plug '1612492/github.vim' 
 	  Plug 'rakr/vim-one'
 
 
@@ -13,16 +13,17 @@ call plug#begin('~/.local/share/nvim/plugged')
 	  Plug 'luochen1990/rainbow'
 	  Plug 'lilydjwg/colorizer'
 	  Plug 'tribela/vim-transparent'
+		Plug 'bling/vim-bufferline'
 
 
   "#Git
 	  Plug 'tpope/vim-fugitive'
 	  Plug 'mhinz/vim-signify'
 	  Plug 'junegunn/gv.vim'
+		Plug 'xuyuanp/nerdtree-git-plugin'
 
 
   "#Autocomplete
-	  Plug 'preservim/nerdcommenter'
 	  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	  Plug 'jiangmiao/auto-pairs'
 
@@ -33,6 +34,11 @@ call plug#begin('~/.local/share/nvim/plugged')
 	  Plug 'easymotion/vim-easymotion'
 	  Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 	  Plug 'terryma/vim-multiple-cursors'
+	  Plug 'preservim/nerdcommenter'
+		Plug 'mengelbrecht/lightline-bufferline'
+
+		Plug 'w0rp/ale'
+		Plug 'tpope/vim-repeat'
 
 
 call plug#end()
