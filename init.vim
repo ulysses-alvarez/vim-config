@@ -18,7 +18,6 @@
 	
 	"## Utilities in code
 	set showmatch   "show associated character
-	set cursorline
 	set autoindent
 	
 	"## Status bar	
@@ -27,6 +26,17 @@
 
 	"## Show buffers
 	set showtabline=2
+
+	"## Do not save swap or backup files
+	set noswapfile
+	set nobackup
+	set undodir=~/.config/nvim/.undodir/
+	set undofile
+
+	"## Set the cursorline and a column
+	set cursorline
+	set colorcolumn=120
+	highlight ColoColumn ctermbg=0 guibg=lightgrey
 
 
 "#Plugin locations
