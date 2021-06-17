@@ -3,7 +3,6 @@ call plug#begin('~/.local/share/nvim/plugged')
   "#Themes
 	  Plug 'hzchirs/vim-material'
 		Plug '1612492/github.vim' 
-	  Plug 'rakr/vim-one'
 
 
   "#Visual

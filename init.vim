@@ -41,5 +41,5 @@
 
 
 "#Theme vim  
-		set termguicolors
-		colorscheme github
+	set termguicolors
+	colorscheme github

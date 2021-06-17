@@ -3,8 +3,11 @@ let mapleader=" "
 
 "#Shortcuts
 	nmap <Leader>w :w<CR>
-	nmap <Leader>aq :q<CR>
+	nmap <Leader>z :q<CR>
 	nmap <Leader>qq :q!<CR>
+	nnoremap <leader>d "_d
+	xnoremap <leader>d "_d
+	"xnoremap <leader>ñ "_dP
 
 	"## Buffer
 		nmap <Leader><right> :bnext<CR>
